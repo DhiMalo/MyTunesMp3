@@ -5,7 +5,7 @@ var PlayerView = Backbone.View.extend({
   // see: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video
   el: '<audio controls autoplay />',
 
-  initialize: function() {
+  initialize: function() {//work on this next?
   },
 
   setSong: function(song){
@@ -14,7 +14,7 @@ var PlayerView = Backbone.View.extend({
   },
 
   render: function(){
-    return this.$el.attr('src', this.model ? this.model.get('url') : '');
+    return this.$el.attr('src', this.model ? this.model.get('url') : ''); //creates a new attribute (or property) to the audio element just defined, and sets it equal to the url destination (if song exists).  ...if not, sets src to an empty string.
   }
 
 });

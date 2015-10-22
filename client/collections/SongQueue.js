@@ -3,7 +3,7 @@ var SongQueue = Songs.extend({
   // model: Songs,
 
   initialize: function(){
-
+// write something in heere?
   }
 
   // add: function(){
