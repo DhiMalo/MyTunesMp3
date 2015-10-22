@@ -15,7 +15,7 @@ var LibraryView = Backbone.View.extend({
     this.$el.html('<th>Library</th>').append(
       this.collection.map(function(song){
         return new LibraryEntryView({model: song}).render();
-      })
+      }) // line 16 creates an array for each song and appends them under the Library element.
     );
   }
 
