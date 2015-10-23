@@ -6,6 +6,7 @@ var PlayerView = Backbone.View.extend({
   el: '<audio controls autoplay />',
 
   initialize: function() {//work on this next?
+    //on.('') - use this to: (1) listen for change or remove from the songQueue, then (2) if changed, re-render.
   },
 
   setSong: function(song){
