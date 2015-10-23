@@ -6,5 +6,5 @@ var Songs = Backbone.Collection.extend({
 });
 
 
-// var instanceofSong = new Songs;
-// console.log('instanceofSong is', instanceofSong)
+var instanceofSong = new Songs;
+console.log('instanceofSong is', instanceofSong)

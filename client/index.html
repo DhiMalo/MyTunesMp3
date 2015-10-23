@@ -25,9 +25,11 @@
     <script>
       $(function(){
         // set up model objects
+        // debugger;
         var library = new Songs(songData);
+    //songData is an array of 4 Aaliyah
         var app = new AppModel({library: library});
-
+    //
         // build a view for the top level of the whole app
         var appView = new AppView({model: app});
 
