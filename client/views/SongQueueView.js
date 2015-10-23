@@ -7,6 +7,7 @@ var SongQueueView = Backbone.View.extend({
   this.model.on('add', this.render, this);
   this.model.on('remove', this.render, this);
   this.render();
+  //  Test is not passing despite : it('renders when add or remove event fires from the song queue collection'
   },
 
   render: function() {
