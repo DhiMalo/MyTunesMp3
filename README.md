@@ -11,7 +11,7 @@
 ```
 bower install
 ```
-1. Run the index.html file in your favorite browser
-- Queue up songs by click ing them
+- Run the index.html file in your favorite browser
+- Click songs to Queue them up - play begins immediately
 
 This is a project I completed as a student at [Telegraph Academy](http://telegraphacademy.com). This project was worked on with a pair.
