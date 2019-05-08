@@ -1,5 +1,5 @@
-#MyTunes
-###A web-based mp3 player built using Backbone.js
+# MyTunes
+### A web-based mp3 player built using Backbone.js
 
 #### Club Atmosphere (Screenshot)
 ![mytunesscreenshot](https://cloud.githubusercontent.com/assets/10456737/13119987/7e339cda-d560-11e5-8c44-0fe2f71a2cef.png)
